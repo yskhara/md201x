@@ -1,0 +1,16 @@
+
+このToolsディレクトリをホームディレクトリの直下にコピーし，"md201x"という名前に変えておく．
+そして，
+
+$ cd ~/md201x/logs
+$ (stty raw; cat > `date +%Y%m%d_%H-%M-%S`.csv) < /dev/ttyUSB0
+
+として，モータを回す．（SQUARE_TESTフラグを有効にしておくこと）
+モータが停止したらCtrl+Cでcatコマンドを終了する．
+そしたら， ./logs/内にcsvファイルが追加されるので，そのファイル名をplot_log.sce内のfilenameに指定し，実行する．
+すると，./logs/figs/内に画像が追加される．
+
+
+
+
+24:1のときはKp=0.5 [N.m/(rad/s)], Ki = 20 [N.m/rad]でやった．

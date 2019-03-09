@@ -1,0 +1,8 @@
+eeprom.cpp:71:10:uint16_t EE_Init()	48	static
+eeprom.cpp:324:10:uint16_t EE_VerifyPageFullyErased(uint32_t)	24	static
+eeprom.cpp:362:10:uint16_t EE_ReadVariable(uint16_t, uint16_t*)	32	static
+eeprom.cpp:421:10:uint16_t EE_WriteVariable(uint16_t, uint16_t)	24	static
+eeprom.cpp:445:26:HAL_StatusTypeDef EE_Format()	32	static
+eeprom.cpp:496:17:uint16_t EE_FindValidPage(uint8_t)	24	static
+eeprom.cpp:568:17:uint16_t EE_VerifyPageFullWriteVariable(uint16_t, uint16_t)	40	static
+eeprom.cpp:629:17:uint16_t EE_PageTransfer(uint16_t, uint16_t)	56	static

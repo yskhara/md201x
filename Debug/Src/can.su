@@ -1,0 +1,12 @@
+can.cpp:78:6:void can_unpack(const uint8_t (&)[8], T&) [with T = short unsigned int]	16	static
+can.cpp:78:6:void can_unpack(const uint8_t (&)[8], T&) [with T = double]	12	static
+can.cpp:105:6:void can_init()	0	static
+can.cpp:113:6:void can_set_filter(uint32_t, uint32_t)	8	static
+can.cpp:143:6:void can_enable()	16	static
+can.cpp:179:6:void can_disable()	8	static
+can.cpp:190:6:void can_set_bitrate(can_bitrate)	0	static
+can.cpp:230:6:void can_set_silent(uint8_t)	0	static
+can.cpp:247:10:uint32_t can_tx(CAN_TxHeaderTypeDef*, uint8_t (&)[8])	16	static
+can.cpp:261:10:uint32_t can_rx(CAN_RxHeaderTypeDef*, uint8_t (&)[8])	8	static
+can.cpp:33:6:void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef*)	56	static
+can.cpp:274:9:uint8_t is_can_msg_pending(uint8_t)	8	static

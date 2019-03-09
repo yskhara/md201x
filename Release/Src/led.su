@@ -1,0 +1,2 @@
+led.cpp:15:6:void led_on()	8	static
+led.cpp:28:6:void led_process()	8	static

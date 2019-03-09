@@ -1,0 +1,10 @@
+can.cpp:19:6:void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef*)	64	static
+can.cpp:62:6:void can_init()	8	static
+can.cpp:70:6:void can_set_filter(uint32_t, uint32_t)	20	static
+can.cpp:100:6:void can_enable()	24	static
+can.cpp:136:6:void can_disable()	0	static
+can.cpp:147:6:void can_set_bitrate(can_bitrate)	0	static
+can.cpp:187:6:void can_set_silent(uint8_t)	0	static
+can.cpp:204:10:uint32_t can_tx(CAN_TxHeaderTypeDef*, uint8_t (&)[8])	16	static
+can.cpp:218:10:uint32_t can_rx(CAN_RxHeaderTypeDef*, uint8_t (&)[8])	8	static
+can.cpp:231:9:uint8_t is_can_msg_pending(uint8_t)	8	static

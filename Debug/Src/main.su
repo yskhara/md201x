@@ -1,0 +1,12 @@
+main.cpp:313:13:void MX_CRC_Init()	8	static
+main.cpp:608:13:void MX_GPIO_Init()	64	static
+main.cpp:276:13:void MX_CAN_Init()	8	static
+main.cpp:443:13:void MX_TIM2_Init()	64	static
+main.cpp:498:13:void MX_TIM3_Init()	32	static
+main.cpp:367:13:void MX_TIM1_Init()	120	static
+main.cpp:554:13:void MX_DMA_Init()	16	static
+main.cpp:533:13:void MX_USART1_UART_Init()	8	static
+SerialClass.hpp:69:14:void SerialClass::write(const uint8_t*, int)	24	static
+main.cpp:233:6:void SystemClock_Config()	8	static
+main.cpp:65:5:int main()	16	static
+main.cpp:653:6:void Error_Handler()	0	static

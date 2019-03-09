@@ -1,0 +1,5 @@
+motor_ctrl.cpp:10:6:void MotorCtrl::Control()	48	static
+motor_ctrl.cpp:78:6:void MotorCtrl::SetTarget(double)	24	static
+motor_ctrl.cpp:96:6:void MotorCtrl::Print()	224	static
+motor_ctrl.cpp:112:6:void MotorCtrl::ReadConfig()	32	static
+motor_ctrl.cpp:125:6:void MotorCtrl::WriteConfig()	16	static

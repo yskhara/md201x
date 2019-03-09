@@ -1,0 +1,5 @@
+flash.h:16:6:void _eraseFlash()	32	static
+flash.h:29:6:void writeFlash(uint32_t, uint16_t*, uint32_t)	48	static
+flash.h:40:6:void loadFlash(uint32_t, uint8_t*, uint32_t)	0	static
+conf.cpp:13:6:void readConf()	8	static
+conf.cpp:18:6:void writeConf()	40	static

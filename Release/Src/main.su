@@ -1,0 +1,4 @@
+SerialClass.hpp:69:14:void SerialClass::write(const uint8_t*, int)	24	static
+main.cpp:269:6:void SystemClock_Config()	8	static
+main.cpp:67:5:int main()	168	static
+main.cpp:689:6:void Error_Handler()	0	static
